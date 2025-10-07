@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praktikum Web - 1</title>
+    <title>Portofolio Hannn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-    <h1>Praktikum Web - 1</h1>
+    <header class="main-header">
+        <h1>Portofolio Hannn</h1>
+    <nav>
+        <ul>
+            <li><a href="#content">Home</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="content">
+            <h2>About Me</h2>
+            <div class="about-section">
+                <div class="about-text">
+                    <h4>Hello Dek!</h4>
+                    <h3 id="demo"></h3>
+                    <p>Saat ini saya sedang belajar web</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores quis dicta magnam inventore, fuga a ullam ab illo. Atque odit, debitis itaque molestias ullam eos suscipit repudiandae aspernatur ad.</p>
+                    <button onclick="showMessage()">Click Me</button>
+                </div>
+                <div class="about-image">
+                    <img src="250301 _ jiwoo.jpg" width="250" height="250" alt="yuhuuu" class="hero-img">
+                </div>
+            </div>
+        </section>
+        <section id="sckills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Struktur Web</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Styling & Layout</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interaktivitas</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <h3>Paranormal</h3>
+                    <p>Cenayang</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 Praktikum Pemograman Web</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

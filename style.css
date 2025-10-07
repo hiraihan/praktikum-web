@@ -1,0 +1,102 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+body {
+    font-family:  "Poppins", sans-serif;
+    font-style: italic;
+    margin: 0;
+    background-color: #fff;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1211ca;
+  color: white;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 30px;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  padding-top: 100px;
+}
+
+#skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 3rem 20px;
+}
+
+.skill {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+}
+
+.skill i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-html5 {
+  color: #e34f26
+}
+
+.fa-css-alt {
+  color: #1572b6
+}
+
+.fa-js-square {
+  color: #f7df1e
+}
+
+.fa-ghaib {
+  color: #61dafb
+}
+
+footer {
+  padding: 20px;
+  background-color: #1211ca;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
